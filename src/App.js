@@ -189,7 +189,13 @@ const [mon1, setMon1] = useState({
 
 
   return (
-    <h1>pay</h1>
+    <div>
+      <form>
+        <input
+          type="checkbox"
+        />
+      </form>
+    </div>
   );
 }
 
